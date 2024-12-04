@@ -67,7 +67,7 @@ voice-treatment-utility/
 - Neural network-based noise reduction using RNNoise
 - High-quality sample rate conversion (24kHz → 48kHz)
 - Bit depth increase (16-bit → 24-bit)
-- Professional audio filtering chain
+- Audio filtering chain using FFmpeg
 - Reference-based audio mastering using Matchering
 - Organized dual format output (WAV and MP3)
 - Progress tracking for batch operations

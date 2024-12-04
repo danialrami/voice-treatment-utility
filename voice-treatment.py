@@ -96,7 +96,7 @@ def process_directory(input_dir):
     # Get paths
     script_dir = os.path.dirname(os.path.abspath(__file__))
     rnnoise_model = os.path.join(script_dir, "rnnoise-models", "beguiling-drafter-2018-08-30", "bd.rnnn")
-    reference_file = os.path.join(script_dir, "references", "christina-reference.wav") # replace with your reference file if different
+    reference_file = os.path.join(script_dir, "references", "christina-reference.wav") # replace with your reference file
     
     # Validate required files
     if not os.path.exists(rnnoise_model):
