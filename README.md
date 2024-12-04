@@ -54,7 +54,7 @@ voice-treatment-utility/
 ├── voice-treatment.py
 ├── requirements.txt
 ├── README.md
-├── LICENSE
+├── LICENSE.md
 ├── references/
 │   └── christina-reference.wav    # Your reference file (not included)
 └── rnnoise-models/
@@ -90,19 +90,6 @@ git clone https://github.com/GregorR/rnnoise-models.git
 
 # Install Python requirements
 pip install -r requirements.txt
-```
-
-## Project Structure
-```
-voice-treatment-utility/
-├── voice-treatment.py
-├── requirements.txt
-├── README.md
-├── references/
-│   └── christina-reference.wav
-└── rnnoise-models/
-    └── beguiling-drafter-2018-08-30/
-        └── bd.rnnn
 ```
 
 ## Audio Processing Chain
@@ -162,7 +149,10 @@ python3 voice-treatment.py
 
 ### Output Structure Example
 ```
-input_directory/
+voice-treatment-utility/
+├── input_directory/
+│   ├── file1.wav
+│   └── file2.wav
 └── input_directory_processed/
     ├── file1_mobile.mp3
     ├── file2_mobile.mp3
@@ -218,7 +208,7 @@ Contributions are welcome -- Please feel free to submit a Pull Request. For majo
 
 ## License
 This project is licensed under the GNU General Public License v2.0. For more details, see:
-- The [LICENSE](LICENSE) file in this repository
+- The [LICENSE](LICENSE.md) file in this repository
 - The official [GPL v2 license text](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 
 This choice of license ensures that any modifications or redistributions of this code must also remain open source, protecting the community's ability to use, study, share, and improve the software.

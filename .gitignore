@@ -1,5 +1,5 @@
 # Reference files
-christina-reference.wav
+*.wav
 
 # RNNoise models
 rnnoise-models/
