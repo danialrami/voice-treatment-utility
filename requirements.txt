@@ -1,0 +1,10 @@
+# Core processing
+matchering>=2.0.2  # Audio matching and mastering
+numpy>=1.26.4     # Latest stable version shown in search results
+soundfile>=0.12.1 # Latest stable version with MP3 support
+scipy>=1.12.0     # Latest stable version with improved features
+
+# System requirements
+# Note: These are installed via system package manager, not pip
+# ffmpeg >= 7.0    # With arnndn and soxr support
+# sox              # Required for SoX resampling
