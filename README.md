@@ -105,7 +105,7 @@ Input → RNNoise → Highpass → Bell EQ 1 → Bell EQ 2 → Lowpass → Resam
 ```
 
 #### Filter Specifications
-- **Highpass Filter**: 150 Hz, 12 dB/octave slope
+- **Highpass Filter**: 100 Hz, 12 dB/octave slope
 - **First Bell EQ**: -4 dB at 880 Hz (Q=1)
 - **Second Bell EQ**: +3 dB at 5 kHz (Q=1)
 - **Lowpass Filter**: 17.5 kHz cutoff, 12 dB/octave slope
