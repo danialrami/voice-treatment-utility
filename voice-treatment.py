@@ -18,9 +18,9 @@ def process_audio(input_file, output_wav, output_mp3, rnnoise_model, reference_f
         f"arnndn=m='{rnnoise_model}'",  # Use RNNoise for denoising
         
         # EQ filters
-        "highpass=f=100:p=2",  # 12 dB/oct lowcut at 100 Hz
+        "highpass=f=75:p=2",  # 12 dB/oct lowcut at 75 Hz
         "equalizer=f=880:t=q:w=1:g=-4",  # -4 dB bell at 880 Hz
-        "equalizer=f=5000:t=q:w=1:g=3",     # +4 dB bell at 5 kHz
+        #"equalizer=f=5000:t=q:w=1:g=1",     # +1 dB bell at 5 kHz
         "lowpass=f=17500:p=2",              # 12 dB/oct lowpass at 17.5 kHz
         
         # Add SoX resampler
